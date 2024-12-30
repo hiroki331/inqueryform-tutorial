@@ -93,6 +93,7 @@ const MailForm = () => {
         <FormField
           control={form.control}
           name="file"
+          // eslint-disable-next-line @typescript-eslint/no-unused-vars
           render={({ field: { value, onChange, ...fieldProps } }) => (
             <FormItem>
               <FormLabel>添付画像</FormLabel>
